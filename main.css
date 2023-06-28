@@ -1,0 +1,76 @@
+.root {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-bar-left {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(93, 214, 251);
+    color: white;
+    font-size: 30px;
+}
+.menu-bar-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.empty-space {
+    background-color: black;
+    height: 300px;
+}
+
+.row-one {
+    display: flex;
+	justify-content: space-evenly;
+    /* width: 100%; */
+    padding: 50px 50px 25px;
+}
+
+.green-boxes {
+    background-color: rgb(177, 251, 212);
+    height: 20vw;
+    width: 20vw;
+    border-radius: 20px;
+
+}
+
+.row-two {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 50px 25px;
+}
+
+.yellow-boxes {
+    background-color: yellow;
+    height: 20vw;
+    width: 35vw;
+    border-radius: 5px
+}
+
+.row-three {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 50px 50px;
+}
+
+.text,.elephant-picture {
+    height: 20vw;
+    width: 35vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(29, 72, 49);
+    height: 125px;
+    padding: 0px;
+}
